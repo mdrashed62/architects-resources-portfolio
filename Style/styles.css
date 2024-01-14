@@ -19,7 +19,7 @@ body {
 
 .primary-description {
     color: #727272;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -159,7 +159,28 @@ body {
     margin-top: 0px;
 }
 
-/* medium device */
+/* last of main section */
+.facts{
+    margin-left: 130px;
+   
+}
+.facts p{
+    width: 542px;
+}
+.work-information{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top:60px;
+}
+.card-1{
+    margin-left: 200px;
+   
+}
+
+.number{
+    font-size: 2rem;
+}
 
 @media screen and (max-width:970px) {
     .nav {
@@ -203,18 +224,22 @@ body {
     .ten-years-badge p {
         font-size: 13px;
     }
+    .facts{
+        margin-left: 0px;
+       }
+       .card-1{
+        
+        margin-left:0px;
+    }
 }
 
 /* mobile device */
 @media screen and (max-width:570px) {
-
+    
+  
     .header img {
         width: 100%;
 
-    }
-
-    .header {
-        padding: 20px;
     }
 
     .nav {
@@ -230,6 +255,9 @@ body {
         display: grid;
         grid-template-columns: 1fr;
     }
+    .img-container img{
+        padding-left: 10px;
+    }
 
     .features-content {
         padding-left: 0px;
@@ -241,8 +269,21 @@ body {
     }
 
     .features-details {
-        max-width: 380px;
+        max-width: 360px;
         margin-left: 10px;
-
     }
+
+   .facts{
+    margin-left: 0px;
+   }
+    .facts p{
+        width: 250px;
+    }
+    .card-1{
+        
+        margin-left:0px;
+    }
+    /* .work-information{
+        display: grid;
+    } */
 }
